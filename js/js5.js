@@ -39,7 +39,7 @@ function generarTabla() {
         case 1:
             for (let i = 0; i <= longitud; i++) {
                 let renglon = document.createElement("tr")
-                renglon.innerHTML = `<td>${numtabla}</td><td>*</td><td>${i}</td><td>=</td><td>${(numtabla * i)}</td>`;
+                renglon.innerHTML = `<td>${numtabla}</td><td>x</td><td>${i}</td><td>=</td><td>${(numtabla * i)}</td>`;
                 push.appendChild(renglon);
             };
             tabla.innerHTML = "";
@@ -48,7 +48,7 @@ function generarTabla() {
         case 2:
             for (let i = longitud; i >= 0; i--) {
                 let renglon = document.createElement("tr")
-                renglon.innerHTML = `<td>${numtabla}</td><td>*</td><td>${i}</td><td>=</td><td>${(numtabla * i)}</td>`;
+                renglon.innerHTML = `<td>${numtabla}</td><td>x</td><td>${i}</td><td>=</td><td>${(numtabla * i)}</td>`;
                 push.appendChild(renglon);
             };
             tabla.innerHTML = "";
