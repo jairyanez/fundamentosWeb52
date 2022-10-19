@@ -35,6 +35,8 @@ function generarTabla() {
     let tabla = document.getElementById("tabla-resul");
     let push = document.createDocumentFragment();
 
+    document.getElementById("subtitulo").textContent = `Tabla del ${numtabla}`;
+    
     switch (tipo) {
         case 1:
             for (let i = 0; i <= longitud; i++) {

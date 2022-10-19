@@ -105,6 +105,12 @@ body {
     transition: 0.3s;
 }
 
+span {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
 #boton-tabla {
     border: 3px solid rgb(255, 180, 104);
     background-color: rgb(255, 180, 104);
@@ -116,16 +122,17 @@ body {
     transition: 0.3s;
 }
 
-table {
+#tabla-resul {
     margin: 10px 0px;
     border-collapse: collapse;
+    border-radius: 10px;
     text-align: center;
-    background-color: white;
+    background-color: rgb(255, 240, 223);
 }
 
-table tr td{
-    padding: 10px 5px;
+#tabla-resul tr td{
+    padding: 10px 8px;
     text-align: center;
-    border-bottom: 2px solid red;
-    border-top: 2px solid red;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
