@@ -58,10 +58,10 @@ function cambiarimg() {
             base.src = "https://akamai.sscdn.co/uploadfile/letras/fotos/c/7/9/7/c7974361a3e99e988d0e72019b2b058f.jpg";
             break;
         case 4:
-            base.src = "https://akamai.sscdn.co/uploadfile/letras/fotos/c/7/9/7/c7974361a3e99e988d0e72019b2b058f.jpg";
+            base.src = "https://upload.wikimedia.org/wikipedia/commons/a/ad/Arc%C3%A1ngel_%22La_Entrevista%22_-_A_solas_con_Tony_Dandrades.jpg";
             break;
         default:
-            base.src = ""
+            base.src = "https://www.ferexpo.cl/images/contenido-no-disponible.jpg"
             break;
 
     }
