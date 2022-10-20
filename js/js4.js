@@ -45,7 +45,7 @@ function calcular() {
 
 
 function cambiarimg() {
-    let opcion = parseInt(document.getElementById("numero").value);   
+    let opcion = parseInt(document.getElementById("opcion").value);   
     let base = document.getElementById("imagen"); 
     switch (opcion) {
         case 1:
