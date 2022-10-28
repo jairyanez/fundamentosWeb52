@@ -9,36 +9,39 @@
 </head>
 <body>
     <h1>Javascript Funciones</h1>
-    <h2>Programa de Divisores</h2>
-    <div id="divisores">
-        <div class="label">
-            <label for="numero">Numero</label>
-            <input type="text" name="numero" id="numero">
+    <div class="contenedor">
+        <h2>Programa de Divisores</h2>
+        <div id="divisores">
+            <div class="label">
+                <label for="numero">Numero</label>
+                <input type="text" name="numero" id="numero">
+            </div>
+        
+            <div class="label">
+                <label for="resul">Resultado</label>
+                <input type="text" name="resul" id="resul">
+            </div>
+        
+            <div>
+                <button onclick="calcular()">Calcular</button>
+            </div>
         </div>
     
-        <div class="label">
-            <label for="resul">Resultado</label>
-            <input type="text" name="resul" id="resul">
-        </div>
-    
-        <div>
-            <button onclick="calcular()">Calcular</button>
-        </div>
-    </div>
-
-    <div id="imagenes">
         <h2>Programa de Imagenes</h2>
-        <div class="label">
-            <label for="opcion">Escojer el numero</label>
-            <input type="text" name="opcion" id="opcion">
-        </div>
-    
-        <div>
-            <img id="imagen" style="width: 200px;" src="" alt="">
-        </div>
-    
-        <div>
-            <button onclick="cambiarimg()">Ver Imagen</button>
+        <div id="imagenes">
+            <div class="label">
+                <label for="opcion">Escojer el numero</label>
+                <input type="text" name="opcion" id="opcion">
+            </div>
+        
+            <div>
+                <img id="imagen" style="width: 200px;" src="" alt="">
+                <h3 id="nombre"></h3>
+            </div>
+        
+            <div>
+                <button onclick="cambiarimg()">Ver Imagen</button>
+            </div>
         </div>
     </div>
     <script src="../js/js4.js"></script>
